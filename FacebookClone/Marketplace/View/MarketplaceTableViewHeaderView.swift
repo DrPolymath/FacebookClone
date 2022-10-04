@@ -1,0 +1,20 @@
+//
+//  MarketplaceTableViewHeaderView.swift
+//  FacebookClone
+//
+//  Created by Muhammad Zikri Mohd Yunan on 26/09/2022.
+//
+
+import UIKit
+
+class MarketplaceTableViewHeaderView: UITableViewHeaderFooterView {
+
+    /*
+    // Only override draw() if you perform custom drawing.
+    // An empty implementation adversely affects performance during animation.
+    override func draw(_ rect: CGRect) {
+        // Drawing code
+    }
+    */
+
+}

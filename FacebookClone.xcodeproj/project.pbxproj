@@ -7,15 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B44C144A28E17BDA00CD1DEC /* MarketplaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44C144928E17BDA00CD1DEC /* MarketplaceViewController.swift */; };
+		B44C144C28E17E1A00CD1DEC /* MarketplaceTableViewHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44C144B28E17E1A00CD1DEC /* MarketplaceTableViewHeaderView.swift */; };
+		B44C144E28E17E2E00CD1DEC /* MarketplaceTableViewHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B44C144D28E17E2E00CD1DEC /* MarketplaceTableViewHeaderView.xib */; };
+		B44EF94128EBC68B00825BF5 /* PostImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44EF93F28EBC68B00825BF5 /* PostImageViewController.swift */; };
+		B44EF94228EBC68B00825BF5 /* PostImageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B44EF94028EBC68B00825BF5 /* PostImageViewController.xib */; };
 		B46FCFB028D2219B0036BF4F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46FCFAF28D2219B0036BF4F /* AppDelegate.swift */; };
 		B46FCFB228D2219B0036BF4F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46FCFB128D2219B0036BF4F /* SceneDelegate.swift */; };
-		B46FCFB428D2219B0036BF4F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46FCFB328D2219B0036BF4F /* ViewController.swift */; };
 		B46FCFB728D2219B0036BF4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B46FCFB528D2219B0036BF4F /* Main.storyboard */; };
 		B46FCFB928D2219C0036BF4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B46FCFB828D2219C0036BF4F /* Assets.xcassets */; };
 		B46FCFBC28D2219C0036BF4F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B46FCFBA28D2219C0036BF4F /* LaunchScreen.storyboard */; };
 		B46FCFC728D2219C0036BF4F /* FacebookCloneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46FCFC628D2219C0036BF4F /* FacebookCloneTests.swift */; };
 		B46FCFD128D2219C0036BF4F /* FacebookCloneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46FCFD028D2219C0036BF4F /* FacebookCloneUITests.swift */; };
 		B46FCFD328D2219C0036BF4F /* FacebookCloneUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46FCFD228D2219C0036BF4F /* FacebookCloneUITestsLaunchTests.swift */; };
+		B46FCFE028D225900036BF4F /* SplashController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46FCFDF28D225900036BF4F /* SplashController.swift */; };
+		B47C82D228D95F2D009CF04C /* HomeTableViewHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B47C82D128D95F2D009CF04C /* HomeTableViewHeaderView.xib */; };
+		B4A24ED528D8AB8E00F1CC6E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A24ED428D8AB8E00F1CC6E /* HomeViewController.swift */; };
+		B4A24ED928D8ADF600F1CC6E /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A24ED728D8ADF600F1CC6E /* HomeTableViewCell.swift */; };
+		B4A24EDA28D8ADF600F1CC6E /* HomeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4A24ED828D8ADF600F1CC6E /* HomeTableViewCell.xib */; };
+		B4A24EDD28D8C53600F1CC6E /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A24EDC28D8C53600F1CC6E /* PostModel.swift */; };
+		B4D1A73928DAF0C0003A3986 /* HomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D1A73728DAF0C0003A3986 /* HomeCollectionViewCell.swift */; };
+		B4D1A73A28DAF0C0003A3986 /* HomeCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4D1A73828DAF0C0003A3986 /* HomeCollectionViewCell.xib */; };
+		B4DE140A28D9664F00E02712 /* HomeTableViewHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DE140928D9664F00E02712 /* HomeTableViewHeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +49,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B44C144928E17BDA00CD1DEC /* MarketplaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketplaceViewController.swift; sourceTree = "<group>"; };
+		B44C144B28E17E1A00CD1DEC /* MarketplaceTableViewHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketplaceTableViewHeaderView.swift; sourceTree = "<group>"; };
+		B44C144D28E17E2E00CD1DEC /* MarketplaceTableViewHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MarketplaceTableViewHeaderView.xib; sourceTree = "<group>"; };
+		B44EF93F28EBC68B00825BF5 /* PostImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostImageViewController.swift; sourceTree = "<group>"; };
+		B44EF94028EBC68B00825BF5 /* PostImageViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PostImageViewController.xib; sourceTree = "<group>"; };
 		B46FCFAC28D2219B0036BF4F /* FacebookClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FacebookClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B46FCFAF28D2219B0036BF4F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B46FCFB128D2219B0036BF4F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B46FCFB328D2219B0036BF4F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B46FCFB628D2219B0036BF4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B46FCFB828D2219C0036BF4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B46FCFBB28D2219C0036BF4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +66,15 @@
 		B46FCFCC28D2219C0036BF4F /* FacebookCloneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FacebookCloneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B46FCFD028D2219C0036BF4F /* FacebookCloneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookCloneUITests.swift; sourceTree = "<group>"; };
 		B46FCFD228D2219C0036BF4F /* FacebookCloneUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookCloneUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B46FCFDF28D225900036BF4F /* SplashController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashController.swift; sourceTree = "<group>"; };
+		B47C82D128D95F2D009CF04C /* HomeTableViewHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeTableViewHeaderView.xib; sourceTree = "<group>"; };
+		B4A24ED428D8AB8E00F1CC6E /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		B4A24ED728D8ADF600F1CC6E /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
+		B4A24ED828D8ADF600F1CC6E /* HomeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeTableViewCell.xib; sourceTree = "<group>"; };
+		B4A24EDC28D8C53600F1CC6E /* PostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
+		B4D1A73728DAF0C0003A3986 /* HomeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCollectionViewCell.swift; sourceTree = "<group>"; };
+		B4D1A73828DAF0C0003A3986 /* HomeCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeCollectionViewCell.xib; sourceTree = "<group>"; };
+		B4DE140928D9664F00E02712 /* HomeTableViewHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewHeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +102,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B44C144228E1740300CD1DEC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B44C144328E1740A00CD1DEC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B44C144B28E17E1A00CD1DEC /* MarketplaceTableViewHeaderView.swift */,
+				B44C144D28E17E2E00CD1DEC /* MarketplaceTableViewHeaderView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B44C144428E1741100CD1DEC /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B44C144928E17BDA00CD1DEC /* MarketplaceViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
 		B46FCFA328D2219B0036BF4F = {
 			isa = PBXGroup;
 			children = (
@@ -99,9 +149,14 @@
 		B46FCFAE28D2219B0036BF4F /* FacebookClone */ = {
 			isa = PBXGroup;
 			children = (
+				B4A24ECE28D8A72900F1CC6E /* Home */,
+				B4A24ECF28D8A73E00F1CC6E /* Watch */,
+				B4A24ED028D8A74A00F1CC6E /* Marketplace */,
+				B4A24ED128D8A76800F1CC6E /* Notifications */,
+				B4A24ED228D8A97300F1CC6E /* Menu */,
 				B46FCFAF28D2219B0036BF4F /* AppDelegate.swift */,
 				B46FCFB128D2219B0036BF4F /* SceneDelegate.swift */,
-				B46FCFB328D2219B0036BF4F /* ViewController.swift */,
+				B46FCFDF28D225900036BF4F /* SplashController.swift */,
 				B46FCFB528D2219B0036BF4F /* Main.storyboard */,
 				B46FCFB828D2219C0036BF4F /* Assets.xcassets */,
 				B46FCFBA28D2219C0036BF4F /* LaunchScreen.storyboard */,
@@ -125,6 +180,78 @@
 				B46FCFD228D2219C0036BF4F /* FacebookCloneUITestsLaunchTests.swift */,
 			);
 			path = FacebookCloneUITests;
+			sourceTree = "<group>";
+		};
+		B4A24ECE28D8A72900F1CC6E /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				B4A24EDB28D8C51500F1CC6E /* Model */,
+				B4A24ED628D8ADBC00F1CC6E /* View */,
+				B4A24ED328D8AB5000F1CC6E /* ViewController */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		B4A24ECF28D8A73E00F1CC6E /* Watch */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Watch;
+			sourceTree = "<group>";
+		};
+		B4A24ED028D8A74A00F1CC6E /* Marketplace */ = {
+			isa = PBXGroup;
+			children = (
+				B44C144228E1740300CD1DEC /* Model */,
+				B44C144328E1740A00CD1DEC /* View */,
+				B44C144428E1741100CD1DEC /* ViewController */,
+			);
+			path = Marketplace;
+			sourceTree = "<group>";
+		};
+		B4A24ED128D8A76800F1CC6E /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Notifications;
+			sourceTree = "<group>";
+		};
+		B4A24ED228D8A97300F1CC6E /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		B4A24ED328D8AB5000F1CC6E /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B4A24ED428D8AB8E00F1CC6E /* HomeViewController.swift */,
+				B44EF93F28EBC68B00825BF5 /* PostImageViewController.swift */,
+				B44EF94028EBC68B00825BF5 /* PostImageViewController.xib */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		B4A24ED628D8ADBC00F1CC6E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B4A24ED728D8ADF600F1CC6E /* HomeTableViewCell.swift */,
+				B4A24ED828D8ADF600F1CC6E /* HomeTableViewCell.xib */,
+				B4DE140928D9664F00E02712 /* HomeTableViewHeaderView.swift */,
+				B47C82D128D95F2D009CF04C /* HomeTableViewHeaderView.xib */,
+				B4D1A73728DAF0C0003A3986 /* HomeCollectionViewCell.swift */,
+				B4D1A73828DAF0C0003A3986 /* HomeCollectionViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B4A24EDB28D8C51500F1CC6E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B4A24EDC28D8C53600F1CC6E /* PostModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,8 +359,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				B46FCFBC28D2219C0036BF4F /* LaunchScreen.storyboard in Resources */,
+				B4D1A73A28DAF0C0003A3986 /* HomeCollectionViewCell.xib in Resources */,
 				B46FCFB928D2219C0036BF4F /* Assets.xcassets in Resources */,
+				B4A24EDA28D8ADF600F1CC6E /* HomeTableViewCell.xib in Resources */,
+				B44EF94228EBC68B00825BF5 /* PostImageViewController.xib in Resources */,
 				B46FCFB728D2219B0036BF4F /* Main.storyboard in Resources */,
+				B47C82D228D95F2D009CF04C /* HomeTableViewHeaderView.xib in Resources */,
+				B44C144E28E17E2E00CD1DEC /* MarketplaceTableViewHeaderView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +390,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B46FCFB428D2219B0036BF4F /* ViewController.swift in Sources */,
+				B44C144A28E17BDA00CD1DEC /* MarketplaceViewController.swift in Sources */,
+				B44C144C28E17E1A00CD1DEC /* MarketplaceTableViewHeaderView.swift in Sources */,
+				B4DE140A28D9664F00E02712 /* HomeTableViewHeaderView.swift in Sources */,
+				B4A24ED928D8ADF600F1CC6E /* HomeTableViewCell.swift in Sources */,
+				B4A24ED528D8AB8E00F1CC6E /* HomeViewController.swift in Sources */,
+				B46FCFE028D225900036BF4F /* SplashController.swift in Sources */,
+				B4A24EDD28D8C53600F1CC6E /* PostModel.swift in Sources */,
+				B4D1A73928DAF0C0003A3986 /* HomeCollectionViewCell.swift in Sources */,
 				B46FCFB028D2219B0036BF4F /* AppDelegate.swift in Sources */,
 				B46FCFB228D2219B0036BF4F /* SceneDelegate.swift in Sources */,
+				B44EF94128EBC68B00825BF5 /* PostImageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
